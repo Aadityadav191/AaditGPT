@@ -58,7 +58,7 @@ const Conversation = () => {
   return (
     <>
       <div className="chatbot-container">
-        <h1 align="center">What can I help with ?</h1>
+        <h1 align="center">Meet aadit.AI, your personal AI assistant</h1>
         <div className="chatbot-messages">
           {messages.map((message, index) => (
             <div key={index} className={`message ${message.role}`}>
